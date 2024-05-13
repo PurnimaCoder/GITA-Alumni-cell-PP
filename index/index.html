@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- add icon link -->
+    <link rel = "icon" href = 
+    "/frontend/assets/1.png" 
+    type = "image/x-icon">
+
+    <!-- title -->
+    <title>Gita Autonomous College | Alumni Website</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- icons js -->
+    <script src="https://kit.fontawesome.com/c8ff34951d.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- header left section-->
+        <!-- logo & Name -->
+        <i class="fa-solid fa-list-ul" onclick="side_open()"></i>
+        <div class="side-bar-right" style="display:none" id="mySidebar">
+            <div><button onclick="side_close()" class="side-bar-button">CLOSE <i class="fa-solid fa-circle-xmark" style="margin-left: 5px; font-size: large;"></i> </button></div>
+
+            <div style="color: aliceblue;">ACCOUNT <i class="fa-solid fa-circle-user" style="margin-left: 5px; font-size: large; color: aliceblue; "></i></div>
+
+            <div><a href="#" class="side-bar-right-button">Home</a></div>
+           
+            <div><a href="#" class="side-bar-right-button">Overview</a></div>
+           
+            <div><a href="#" class="side-bar-right-button">Visson & Mission</a></div>
+         
+        </div>
+        <script src="./side_bar.js"></script>
+        <div class="logo">
+            <img src="/frontend/assets/1.png" alt="Logo">
+            <div><span>GITA</span> <br> Autonomous College : <br> Alumni Cell</div>
+        </div>
+        <!-- header right section -->
+        <div class="home">
+            <!-- header search bar -->
+            <div class="search">
+                <input type="text" placeholder="Search Here">
+                <button>Search</button>
+            </div>
+            <!-- header nav bar -->
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="mailto:support@gita@gita.edu.in"><abbr title="support@gita@gita.edu.in" style="text-decoration: none;">Email</abbr></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+    <!-- menu-bar -->
+    <div class="navbar" id="navbar">
+        <section class="navbar-box">
+            <a href="#home">Overview</a>
+            <a href="#news">Vission & Mission </a>
+            <a href="#objectives">Objectives</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#faq">FAQ's</a>
+            <div class="dropdown">
+                <button class="dropbtn">Publishes 
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Share
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    
+    <!-- annual meet-up section -->
+    <section class="meet">
+        <h1>Alumnus's ANNUAL REUNION: <hr></h1>
+        <div class="re-img-container">
+            <div class="re-img-wrapp">
+                <div class="re-img-div-1">
+                    <h2> “To reminisce with my old friends, a chance to share some memories, and play our songs again.” 
+                        <br>– Ricky Nelson</h2>
+                </div>
+                <div class="re-img-div-2">
+                    <h2> “When we recall the past, we usually find that it is the simplest things – not the great occasions – that in retrospect give off the greatest glow of happiness.”
+                        <br> – Bob Hope</h2>
+                </div>
+                <div class="re-img-div-3">
+                    <h2> “No distance of place or lapse of time can lessen the friendship of those who are thoroughly persuaded of each other’s worth. 
+                        <br>– Robert Southey</h2>
+                </div>
+                <div class="re-img-div-4">
+                    <h2>“The most beautiful discovery true friends make is that they can grow separately without growing apart.” 
+                        <br>– Elisabeth Foley</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notice Board & Recent Event Section -->
+    <section class="notice-event">
+        <div class="ne">
+            <!-- Left part(Notice Board) -->
+        <section class="notice-board">
+            <h1>Notice Board :</h1>
+            <hr>
+            <div class="nb-content">
+               <div class="nb-lists">
+                <ul>
+                    <li><a href="#">Applications are open to join the Alumni Association Committee 2023-24</a><span>new</span></li>
+                    <li><a href="#">Miss Sikha Singh awraded by Queens Award</a><span>new</span></li>
+                    <li><a href="#">Alumnus awarded by Entrepreneur of the year 2023</a><span>new</span></li>
+                    <li><a href="#">Jounal published by Mr. A.K.Mishra(CSE Batch:2017-2022)</a><span>new</span></li>
+                    <li><a href="#">Alumnus leads award winning COVID-19 vaccine devlopment team</a><span>new</span></li>
+                    <li><a href="#">Gita celebrates their 25-year aniversary with the our Alumnus</a><span>new</span></li>
+                    <li><a href="#">2013-18 Batch gathered for Alumnus Club Dinner</a><span>new</span></li>
+                </ul>
+               </div>
+            </div>
+        </section>
+        <!-- Right part (Recent Event Section) -->
+        <section class="upcomming-event">
+                <h1>Upcomming Events :</h1>
+                <hr>
+                <div class="up-content">
+                    <div class="up-div">
+                        <div class="up-div-content">
+                            <div class="up-date">September<br><span>3</span></div>
+                            <div class="up-notice"><a href="#">Applications are open to join the Alumni Association Committee 2023-24</a><span>new</span></div>
+                        </div>
+                        <div class="up-div-content">
+                            <div class="up-date">September<br><span>14</span></div>
+                            <div class="up-notice"><a href="#">Miss Sikha Singh awraded by Queens Award</a><span>new</span></div>
+                        </div>
+                        <div class="up-div-content">
+                            <div class="up-date">October<br><span>2</span></div>
+                            <div class="up-notice"><a href="#">Alumnus awarded by Entrepreneur of the year 2023</a><span>new</span></div>
+                        </div>
+                        <div class="up-div-content">
+                            <div class="up-date">October<br><span>10</span></div>
+                            <div class="up-notice"><a href="#">Jounal published by Mr. A.K.Mishra(CSE Batch:2017-2022)</a><span>new</span></div>
+                        </div>
+                        <div class="up-div-content">
+                            <div class="up-date">Novemeber<br><span>5</span></div>
+                            <div class="up-notice"><a href="#">Alumnus leads award winning COVID-19 vaccine devlopment team</a><span>new</span></div>
+                        </div>
+                        <div class="up-div-content">
+                            <div class="up-date">December<br><span>15</span></div>
+                            <div class="up-notice"><a href="#">Gita celebrates their 25-year aniversary with the our Alumnus</a><span>new</span></div>
+                        </div>
+                        <div class="up-div-content">
+                            <div class="up-date">December<br><span>18</span></div>
+                            <div class="up-notice"><a href="#">2013-18 Batch gathered for Alumnus Club Dinner</a><span>new</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <!-- Placement section  -->
+    <section class="a-placement">
+        <h1>Our Alumnus Placed In Big MNCs : <hr/></h1>
+        <div class="a-place">
+            <div class="a-placement-comp">
+                <p class="a-place-p">
+                    You enter college with lots of dreams and ambitions. There, you explore your interests, gain skills, learn fundamentals, and implement those in your projects. After completing graduation, now comes the time when you will be going to experience a transition in your career i.e., entering into the corporate world. But before this, you should have a placement offer in your hand. 
+                </p>
+                <div class="a-hs-box-link-wrapper">
+                    <a href="" class="a-hs-box-link">Explore More</a>
+                </div>
+            </div>
+            <div class="a-alumni-slide-container">
+                <div class="a-alumini-slider">
+                    <div class="a-alumini-slide">
+                        <img src="/frontend/assets/alumini-3.png" alt="">
+                        <p><span>Samarth Roy<br>
+                            CSE, 2011-15 Batch <br>
+                            Software Devloper, Microsoft <br>
+                            </span>
+                            <div>
+                                <i class="fa-solid fa-quote-left"></i>
+                            When I first entered GITA I was anxious about my future. Over the four years, so many doors were opened for our personal and academic development that I became confident. The college aims at enhancing our knowledge, skills and abilities.
+                            </div>
+                        </p>
+                    </div>
+                </div>   
+                <div class="a-alumini-slider">
+                    <div class="a-alumini-slide">
+                        <img src="/frontend/assets/alumini2.jpg" alt="">
+                        <p><span>Joy Shinha <br>
+                            ETC, 2014-18 Batch <br>
+                            Software Devloper, Infosys <br>
+                            </span>
+                            <div>
+                                <i class="fa-solid fa-quote-left"></i>
+                            When I first entered GITA I was anxious about my future. Over the four years, so many doors were opened for our personal and academic development that I became confident. The college aims at enhancing our knowledge, skills and abilities.
+                            </div>
+                        </p>
+                    </div>
+                </div> 
+                <div class="a-alumini-slider">
+                    <div class="a-alumini-slide">
+                        <img src="/frontend/assets/alumini1.jpg" alt="">
+                        <p><span>Apoorva Saxena <br>
+                            CSE, 2012-16 Batch <br>
+                            Assistant System Engineer, TCS <br></span>
+                            <div>
+                                <i class="fa-solid fa-quote-left"></i>
+                            When I first entered GITA I was anxious about my future. Over the four years, so many doors were opened for our personal and academic development that I became confident. The college aims at enhancing our knowledge, skills and abilities.
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./alumni.js"></script>
+    </section>
+
+    <!-- Alumni Contact section -->
+    <section class="alu-contact_body">
+        <h1>Connect with our alumni : <hr></h1>
+        <section class="alu-wrapper">
+            <section class="alu-container">
+                <div class="alu-box">
+                  <div class="alu-profile-card apc-1">
+                    <div class="alu-image">
+                      <img class="alu-profile-img" src="/frontend/assets/contact1.jpg" />
+                    </div>
+          
+                    <div class="alu-text-data">
+                      <span class="alu-name">Mr.Amit Sahoo</span>
+          
+                      <span class="alu-job">CSE(2012-2016)</span>
+          
+                      <span class="alu-job">Google(Full Stack Web developer)</span>
+          
+                    </div>
+          
+                    <div class="alu-media-buttons">
+                      <a href="#" style="background: #4267b2" class="alu-link">
+                        <i class="fa-brands fa-facebook"></i>
+                        
+                      </a>
+                      <a href="#" style="background: #1da1f2" class="alu-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                      <a href="#" style="background: #000000" class="alu-link">
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                      <a href="#" style="background: #ff0000" class="alu-link">
+                        <i class="fa-regular fa-envelope"></i>
+                      </a>
+                    </div>
+          
+          
+          
+                    <div class="alu-buttons">
+                      <button class="alu-button">Message</button>
+                    </div>
+          
+          
+                  </div>
+                </div>
+                <div class="alu-box">
+                  <div class="alu-profile-card apc-2">
+                    <div class="alu-image">
+                      <img class="alu-profile-img" src="/frontend/assets/contact2.jpg" />
+                    </div>
+          
+                    <div class="alu-text-data">
+                      <span class="alu-name">Miss. Sushree Jena</span>
+          
+                      <span class="alu-job">CSE(2009-2013)</span>
+          
+                      <span class="alu-job">Microsoft(Database Manager)</span>
+          
+                    </div>
+          
+                    <div class="alu-media-buttons">
+                      <a href="#" style="background: #4267b2" class="alu-link">
+                        <i class="fa-brands fa-facebook"></i>
+                        
+                      </a>
+                      <a href="#" style="background: #1da1f2" class="alu-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                      <a href="#" style="background: #000000" class="alu-link">
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                      <a href="#" style="background: #ff0000" class="alu-link">
+                        <i class="fa-regular fa-envelope"></i>
+                      </a>
+                    </div>
+          
+          
+          
+                    <div class="alu-buttons">
+                      <button class="alu-button">Message</button>
+                    </div>
+          
+          
+                  </div>
+                </div>
+                <div class="alu-box">
+                  <div class="alu-profile-card apc-3">
+                    <div class="alu-image">
+                      <img class="alu-profile-img" src="/frontend/assets/contact3.jpg" />
+                    </div>
+          
+                    <div class="alu-text-data">
+                      <span class="alu-name">Mr.Rakesh Mukharji</span>
+          
+                      <span class="alu-job">CSE(2012-2016)</span>
+          
+                      <span class="alu-job">Oracle(Java developer)</span>
+          
+                    </div>
+          
+                    <div class="alu-media-buttons">
+                      <a href="#" style="background: #4267b2" class="alu-link">
+                        <i class="fa-brands fa-facebook"></i>
+                      </a>
+                      <a href="#" style="background: #1da1f2" class="alu-link">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                      <a href="#" style="background: #000000" class="alu-link">
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                      <a href="#" style="background: #ff0000" class="alu-link">
+                        <i class="fa-regular fa-envelope"></i>
+                      </a>
+                    </div>
+          
+          
+          
+                    <div class="alu-buttons">
+                      <button class="alu-button" >Message</button>
+                    </div>
+          
+          
+                  </div>
+                </div>
+              </section>
+                
+                <div class="alu-description">
+                    By starting to network as a freshman, you’ll be in a better position when your senior year rolls around and you’re looking for a job. “Networking with alumni is about seeing what the relationship can yield in the long run,”. So, GITA Autonomous College gives a very good opertunity to their students to make strong network by connecting with our Alumnus.
+                  <div class="alu-a-hs-box-link-wrapper">
+                    <a href="" class="alu-a-hs-box-link">Know More</a>
+                  </div>
+                </div>
+        </section>
+        <script src="/frontend/index/contact.js"></script> 
+    </section>
+
+    <!-- Referal section -->
+    <section class="referral">
+        <h1>Get a Referral from Alumni :<hr></h1>
+        <section class="referral-sec">
+            <div class="referral-left">
+                <p>GITA Autonomous College provides their students to get the benefits of a strong Alumni Referral Network.</p>
+                <p style="text-indent: 6rem;margin-top: 20px;">Better culture fit as candidates are pre-screened by alumni who know the business. If hired, referrals typically stay longer in jobs than stranger hires. Organizations gain a wider reach to talent. Shorter hiring lead times than traditional recruiting.</p>
+                <div class="a-hs-box-link-wrapper">
+                    <a href="" class="a-hs-box-link">Click Here To Continue</a>
+                </div>
+            </div>
+            <div class="referral-right">
+                <video src="/frontend/assets/20230902_1258321.mp4" autoplay loop muted ></video>
+            </div>
+        </section>
+    </section>
+    
+    <!-- Blog section -->
+    <section class="blog">
+        <h1>Blog : <hr></h1>
+        <div class="blog-wrap">
+            <div class="blog-left">
+                <p>
+                    Technology is everywhere, and that statement is unquestionable. With that being said, it is important for us to learn how to grow along with it, keep up with the changing times and strive to be updated with the latest trends. How can we do that? Well, this is where technology blogs comes in.
+                </p>
+                <p style="margin-top: 1rem; margin-bottom: 1rem; text-indent: 6rem;">
+                    Now, <b>GITA Autonomous College</b> provides a platform to thier students and alumnus to post and read the Blogs on Tech , IT & Business related topics.Click on the "Know More" button to post or read blogs on these topics.
+                </p>
+                <div class="blog-hs-box-link-wrapper">
+                    <a href="" class="a-hs-box-link" style="padding:0 8%;margin-top: 1rem;">Know More</a>
+                </div>
+            </div>
+            <div class="blog-right">
+                <div class="blog-pics">
+                    <div class="blogpic1">
+                        <img src="/frontend/assets/blog3.png" alt="" srcset="">
+                    </div>
+                    <div class="blogpic2">
+                        <img src="/frontend/assets/blog2.png" alt="">
+                    </div>
+                    <div class="blogpic3">
+                        <img src="/frontend/assets/blog1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QnA section -->
+    <section class="qna">
+        <h1>Q&A With our Alumni:<hr></h1>
+        <section class="qna-sec">
+            <div class="qna-left">
+                <label for="ask-question" >Post your Question :</label>
+                <br>
+                <textarea name="ask-question" id="ask-question" cols="30" rows="10" placeholder="Type Here...."></textarea>
+                <div class="alu-a-hs-box-link-wrapper">
+                    <a href="" class="alu-a-hs-box-link">Submit It</a>
+                </div>
+            </div>
+            <div class="qna-right">
+                <div class="qna-right-wrap">
+                    <div class="qna-display">
+                        <div class="qna-q" style="padding: 0;background: transparent;width: 95%;">
+                            <div class="qna-search">
+                                <input type="text" placeholder="Search Here">
+                                <button>Search</button>
+                            </div> 
+                        </div>
+                        <div class="qna-q">
+                            <div class="qna-user-name">
+                                <i class="fa-solid fa-user"></i>
+                                <strong>@id-name</strong>
+                            </div>
+                            <p class="qna-ques">What is your name ?</p>
+                            <div class="qna-symbols">
+                                <div>
+                                    <span>15-Aug-2023</span>
+                                    <span>19:36</span>
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-comment-dots"> Answers</i>
+                                    <i class="fa-solid fa-reply"> Reply</i>
+                                    <i class="fa-solid fa-trash"> Delete</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qna-q">
+                            <div class="qna-user-name">
+                                <i class="fa-solid fa-user"></i>
+                                <strong>@id-name</strong>
+                            </div>
+                            <p class="qna-ques">How are you ?</p>
+                            <div class="qna-symbols">
+                                <div>
+                                    <span>15-Aug-2023</span>
+                                    <span>19:36</span>
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-comment-dots"> Answers</i>
+                                    <i class="fa-solid fa-reply"> Reply</i>
+                                    <i class="fa-solid fa-trash"> Delete</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qna-q">
+                            <div class="qna-user-name">
+                                <i class="fa-solid fa-user"></i>
+                                <strong>@id-name</strong>
+                            </div>
+                            <p class="qna-ques">What are you doing ?</p>
+                            <div class="qna-symbols">
+                                <div>
+                                    <span>15-Aug-2023</span>
+                                    <span>19:36</span>
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-comment-dots"> Answers</i>
+                                    <i class="fa-solid fa-reply"> Reply</i>
+                                    <i class="fa-solid fa-trash"> Delete</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qna-q">
+                            <div class="qna-user-name">
+                                <i class="fa-solid fa-user"></i>
+                                <strong>@id-name</strong>
+                            </div>
+                            <p class="qna-ques">What are you doing ?</p>
+                            <div class="qna-symbols">
+                                <div>
+                                    <span>15-Aug-2023</span>
+                                    <span>19:36</span>
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-comment-dots"> Answers</i>
+                                    <i class="fa-solid fa-reply"> Reply</i>
+                                    <i class="fa-solid fa-trash"> Delete</i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qna-q">
+                            <div class="qna-user-name">
+                                <i class="fa-solid fa-user"></i>
+                                <strong>@id-name</strong>
+                            </div>
+                            <p class="qna-ques">What are you doing ?</p>
+                            <div class="qna-symbols">
+                                <div>
+                                    <span>15-Aug-2023</span>
+                                    <span>19:36</span>
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-comment-dots"> Answers</i>
+                                    <i class="fa-solid fa-reply"> Reply</i>
+                                    <i class="fa-solid fa-trash"> Delete</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- footer section-->
+    <footer class="f-footer">
+        <div class="f-container">
+            <div class="f-row">
+                <div class="f-footer-col">
+                    <img src="/frontend/assets/1.jpg" alt="" class="f-logo">
+                    <h3 class="logot"><a style="text-decoration: none;  " href="https://goo.gl/maps/Y83NfuwFM4AHwpLM8"><i class="fa-solid fa-location-dot"></i> Gita Autonomous College</a></h3>
+                    <p>
+                          <address class="f-adds">
+                              <ul class="f-list-unstyled">
+                                  <li class="f-footer-sprite address">
+                                      Corporate Office<br>
+                                      2nd Floor, Plot No. # 1, <br>
+                                      Gopabandhu Nagar, Near D.A.V. Public School,<br>
+                                      Unit - 8, Bhubaneswar - 751012 Odisha <br>
+                                  </li>
+                                  <li class="f-footer-sprite phone">
+                                      Phone: 0674-2538660 <br>
+                                      FAX : 0674-2538661
+                                  </li>
+                                  <li class="f-footer-sprite email">
+                                      <a href="mailto:support@gita@gita.edu.in" style="color: rgb(143, 182, 229); font-size: 14px;">gita@gita.edu.in</a>
+                                  </li>
+                              </ul>
+                          </address>
+                    </p>
+                </div>
+             <!-- 2nd column--> 
+                <div class="f-footer-col">
+                    <h4>QUICK LINKS <hr width="50%" style="margin-top: 8px;"></h4>
+                    <ul>
+                        <li><a href="#">ABOUT GITA</a></li>
+                        <li><a href="#">ADMISSION</a></li>
+                        <li><a href="#">ACADEMICS</a></li>
+                        <li><a href="#">RESEARCH</a></li>
+                        <li><a href="#">PLACEMENT</a></li>
+                    </ul>
+                </div>
+                <!-- 3rd column-->
+                <div class="f-footer-col">
+                    <h4>GENERAL <hr width="50%" style="margin-top: 8px;"></h4>
+                    <ul>
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">ALUMNI</a></li>
+                        <li><a href="#">APPROVAL LETTER</a></li>
+                        <li><a href="#">CSR</a></li>
+                        <li><a href="#">CURRENT OPENING</a></li>
+                        <li><a href="#">MANDATORY DISCLOSER</a></li>
+                        
+                    </ul>
+                </div>
+                <!--4th column-->
+                <div class="f-footer-col">
+                    <h4>KEEP IN TOUCH <hr width="50%" style="margin-top: 8px;"></h4>
+                    <form class="f-form"> 
+
+                   <!-- here we go for out input section -->
+
+                    <input type="text" placeholder="your name" class="inputname">
+                        <input type="email" placeholder="enter email" class="inputemail">
+                        <input type="submit" value="Submit" class="f-inputSubmit" >
+                    </form>
+
+                    <!--====Add the icons with your own choice just copy the link and paste  at the the head section====-->
+
+                    <div class="f-socialIcon">
+                        <a href="#"><img src="/frontend/assets/google-plus.png" alt="" srcset=""></a>
+                        <a href="#"><img src="/frontend/assets/twitter (1).png" alt="" srcset=""></a>
+                        <a href="#">
+                            <img src="/frontend/assets/facebook.png" alt="" srcset="">
+                        </a>
+                        <a href="#">
+                            <img src="/frontend/assets/instagram.png" alt="" srcset="">
+                        </a>
+    
+                    </div> 
+            </div>
+            </div>
+            <hr style="width: 100%;">
+            <div class="f-row" style="padding:10px 32% ;">
+                <div class="f-coln">
+                    <P class="f-f-copyr">&copy; 2023 by Purnima Panda <br>All Rights Reserved.</P>
+                <!-- Designer name -->
+
+                    <p class="f-dd">Designed and Developed by Purnima Panda</p>
+                </div>
+
+            </div>
+        </div>
+    </footer> 
+    </div>
+    <script src="./navbar.js"></script>
+</body>
+</html>
