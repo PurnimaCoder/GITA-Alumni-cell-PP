@@ -20,7 +20,7 @@ header{
     justify-content: space-between;
     align-items: center;
     gap: 10%;
-    background-image: url(/frontend/assets/background.png);
+    background-image: url(/assets/background.png);
     height: 130px;
     padding-left: 1rem;
     padding-top: 1%;
@@ -274,7 +274,7 @@ header .fa-list-ul{
     box-shadow:4px 4px 10px rgb(8, 8, 8); 
     border-radius: 5px;
     background-image:linear-gradient(to bottom, rgba(250, 251, 252, 0), rgba(71, 5, 61,.8)),
-    url('/frontend/assets/1584097023096.jpg');
+    url('/assets/1584097023096.jpg');
     
 }
 
@@ -287,7 +287,7 @@ header .fa-list-ul{
     box-shadow:4px 4px 10px rgb(8, 8, 8); 
     border-radius: 5px;
     background-image:linear-gradient(to bottom, rgba(250, 251, 252, 0), rgba(71, 5, 61,.8)),
-    url('/frontend/assets/august-newsletter_remotes-1\ \(1\).jpg');
+    url('/assets/august-newsletter_remotes-1\ \(1\).jpg');
     
 }
 
@@ -300,7 +300,7 @@ header .fa-list-ul{
     box-shadow:4px 4px 10px rgb(8, 8, 8); 
     border-radius: 5px;
     background-image:linear-gradient(to bottom, rgba(250, 251, 252, 0), rgba(71, 5, 61,.8)),
-    url('/frontend/assets/6345bf443cc95.image.jpg');
+    url('/assets/6345bf443cc95.image.jpg');
     
 }
 
@@ -313,7 +313,7 @@ header .fa-list-ul{
     box-shadow:4px 4px 10px rgb(8, 8, 8); 
     border-radius: 5px;
     background-image:linear-gradient(to bottom, rgba(250, 251, 252, 0), rgba(71, 5, 61,.8)),
-    url('/frontend/assets/DD-2023.jpeg');
+    url('/assets/DD-2023.jpeg');
     
 }
 
@@ -999,7 +999,7 @@ header .fa-list-ul{
     display: flex;
     justify-content: space-between;
     gap: 10%;
-    background-image: url(/frontend/assets/artistic-wallpaper-preview.jpg);
+    background-image: url(/assets/artistic-wallpaper-preview.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -1167,7 +1167,7 @@ header .fa-list-ul{
 }
 
 .f-adds{
-    background:url(/frontend/assets/output-onlinepngtools.png) no-repeat; /* world image picture*/
+    background:url(/assets/output-onlinepngtools.png) no-repeat; /* world image picture*/
     background-size: cover;
     width: 300px;
 }
